@@ -48,4 +48,4 @@ jobs:
                   jdBusinessCircleJump: ${{ secrets.BUSINESS_CIRCLE_JUMP || github.event.client_payload.BUSINESS_CIRCLE_JUMP }}
                   SUPERMARKET_LOTTERY: ${{ secrets.SUPERMARKET_LOTTERY || github.event.client_payload.SUPERMARKET_LOTTERY }}
                   SUPERMARKET_SHARECODES: ${{ secrets.SUPERMARKET_SHARECODES || github.event.client_payload.SUPERMARKET_SHARECODES }}
-                  SYNCURL: https://github.com/lxk0301/jd_scripts/raw/master/jd_superMarket.js
+                  SYNCURL: https://github.com/LXK9301/jd_scripts/raw/master/jd_superMarket.js

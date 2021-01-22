@@ -4,7 +4,7 @@
 
 | Name | 归属 | 属性 | 说明 |
 | --- | :-: | --- | --- |
-| `JD_COOKIE` | 京东 | 必须 | 京东 cookie,具体获取参考[lxk0301 的获取教程](https://github.com/lxk0301/jd_scripts/blob/master/githubAction.md#%E4%BA%AC%E4%B8%9Ccookie) |
+| `JD_COOKIE` | 京东 | 必须 | 京东 cookie,具体获取参考[lxk0301 的获取教程](https://github.com/LXK9301/jd_scripts/blob/master/githubAction.md#%E4%BA%AC%E4%B8%9Ccookie) |
 | `JD_DEBUG` | 脚本打印 log | 非必须 | 运行脚本时，是否显示 log，默认显示。改成 false 表示不显示，注重隐私的人可以在设置 secret -> `Name:JD_DEBUG,Value:false` |
 | `JD_USER_AGENT` | UA修改 | 非必须 | 若不了解则不填 |
 
@@ -12,15 +12,15 @@
 
 | Name | 归属 | 属性 | 说明 |
 | --- | :-: | --- | --- |
-| `FruitShareCodes` | 东东农场互助码 | 非必须 | 填写规则请看 [jdFruitShareCodes.js](https://github.com/lxk0301/jd_scripts/blob/master/jdFruitShareCodes.js) 里面的说明 |
-| `PETSHARECODES` | 东东萌宠互助码 | 非必须 | 填写规则请看 [jdPetShareCodes.js](https://github.com/lxk0301/jd_scripts/blob/master/jdPetShareCodes.js) 里面的说明 |
-| `PLANT_BEAN_SHARECODES` | 种豆得豆互助码 | 非必须 | 填写规则请看 [jdPlantBeanShareCodes.js](https://github.com/lxk0301/jd_scripts/blob/master/jdPlantBeanShareCodes.js) 里面的说明 |
-| `SUPERMARKET_SHARECODES` | 京小超商圈互助码 | 非必须 | 填写规则请看 [jdSuperMarketShareCodes.js](https://github.com/lxk0301/jd_scripts/blob/master/jdSuperMarketShareCodes.js) 或见下方`互助码的填写规则` |
-| `DDFACTORY_SHARECODES` | 东东工厂互助码 | 非必须 | 填写规则请看 [jdFactoryShareCodes.js](https://github.com/lxk0301/jd_scripts/blob/master/jdFactoryShareCodes.js) 或见下方`互助码的填写规则` |
-| `DREAM_FACTORY_SHARE_CODES` | 京喜工厂互助码 | 非必须 | 填写规则请看 [jdDreamFactoryShareCodes.js](https://github.com/lxk0301/jd_scripts/blob/master/jdDreamFactoryShareCodes.js) 或见下方`互助码的填写规则` |
-| `JXSTORY_SHARECODES` | 京喜故事互助码 | 非必须 | 填写规则请看 [jdJxStoryShareCodes.js](https://github.com/lxk0301/jd_scripts/blob/master/jdJxStoryShareCodes.js) 或见下方`互助码的填写规则` |
-| `JDZZ_SHARECODES` | 京东赚赚小程序互助码 | 非必须 | 填写规则请看 [jdzz.js](https://github.com/lxk0301/jd_scripts/blob/master/jd_jdzz.js) 或见下方`互助码的填写规则` |
-| `JDJOY_SHARECODES` | 京东疯狂JOY互助码 | 非必须 | 填写规则请看 [jd_crazy_joy.js](https://github.com/lxk0301/jd_scripts/blob/master/jd_crazy_joy.js) 或见下方`互助码的填写规则` |
+| `FruitShareCodes` | 东东农场互助码 | 非必须 | 填写规则请看 [jdFruitShareCodes.js](https://github.com/LXK9301/jd_scripts/blob/master/jdFruitShareCodes.js) 里面的说明 |
+| `PETSHARECODES` | 东东萌宠互助码 | 非必须 | 填写规则请看 [jdPetShareCodes.js](https://github.com/LXK9301/jd_scripts/blob/master/jdPetShareCodes.js) 里面的说明 |
+| `PLANT_BEAN_SHARECODES` | 种豆得豆互助码 | 非必须 | 填写规则请看 [jdPlantBeanShareCodes.js](https://github.com/LXK9301/jd_scripts/blob/master/jdPlantBeanShareCodes.js) 里面的说明 |
+| `SUPERMARKET_SHARECODES` | 京小超商圈互助码 | 非必须 | 填写规则请看 [jdSuperMarketShareCodes.js](https://github.com/LXK9301/jd_scripts/blob/master/jdSuperMarketShareCodes.js) 或见下方`互助码的填写规则` |
+| `DDFACTORY_SHARECODES` | 东东工厂互助码 | 非必须 | 填写规则请看 [jdFactoryShareCodes.js](https://github.com/LXK9301/jd_scripts/blob/master/jdFactoryShareCodes.js) 或见下方`互助码的填写规则` |
+| `DREAM_FACTORY_SHARE_CODES` | 京喜工厂互助码 | 非必须 | 填写规则请看 [jdDreamFactoryShareCodes.js](https://github.com/LXK9301/jd_scripts/blob/master/jdDreamFactoryShareCodes.js) 或见下方`互助码的填写规则` |
+| `JXSTORY_SHARECODES` | 京喜故事互助码 | 非必须 | 填写规则请看 [jdJxStoryShareCodes.js](https://github.com/LXK9301/jd_scripts/blob/master/jdJxStoryShareCodes.js) 或见下方`互助码的填写规则` |
+| `JDZZ_SHARECODES` | 京东赚赚小程序互助码 | 非必须 | 填写规则请看 [jdzz.js](https://github.com/LXK9301/jd_scripts/blob/master/jd_jdzz.js) 或见下方`互助码的填写规则` |
+| `JDJOY_SHARECODES` | 京东疯狂JOY互助码 | 非必须 | 填写规则请看 [jd_crazy_joy.js](https://github.com/LXK9301/jd_scripts/blob/master/jd_crazy_joy.js) 或见下方`互助码的填写规则` |
 
 ##### 其它控制
 
